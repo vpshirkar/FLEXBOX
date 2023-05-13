@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+}
+
+.menu {
+    /* border: 1px solid #fff; */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+}
+.login {
+    margin-left: 20px;
+}
